@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.componente {
+    background-color: #7944EA;
+    width: 100%vw;
+    height: 100%vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.tarjeta{
+    background-color: #fff;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 16px;
+}
+
+.nombre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0657d1;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.boton{
+    display: inline-block
+    background-color: #0657d1;
+    padding: 16px 32px;
+    border radius: 16px 
+    font-size: 20px
+    color: #fff;
+    text decoration: none;
+    transition: 0,3s ease-in-out;
+}
+.boton:hover{
+    background-color: #0dcc57;
+    color:#0657d1;
+}
