@@ -6,8 +6,8 @@
 
 .componente {
     background-color: #7944EA;
-    width: 100%vw;
-    height: 100%vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
